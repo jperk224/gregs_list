@@ -2,7 +2,6 @@
 
 header {
     background-color: lightgrey;
-    font-weight: 600px;
     height: 75px;
     width: 100%;
     position: fixed;
@@ -18,7 +17,6 @@ nav {
 
 nav ul {
     list-style: none;
-    color: purple;
     font-size: 1.75em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -29,8 +27,34 @@ nav li {
     padding: 0 10px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 .logo {
     position: absolute;
     left: 20px;
-    color: black;
+}
+
+/**********Search Form*******************/
+
+main {
+    padding-top: 115px;
+    margin-left: 10%;
+}
+
+.form_label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.10em;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#search {
+    width: 600px;
+    height: 40px;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-left: 10px;
 }
