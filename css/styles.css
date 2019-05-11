@@ -23,6 +23,10 @@ nav {
     padding-right: 20px;
 }
 
+nav a {
+    color: purple;
+}
+
 ul {
     list-style: none;
     font-size: 1.75em;
