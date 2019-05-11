@@ -1,0 +1,36 @@
+/**********Header and Nav Bar***************/
+
+header {
+    background-color: lightgrey;
+    font-weight: 600px;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    color: purple;
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    color: black;
+}
