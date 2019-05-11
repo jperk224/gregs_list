@@ -82,6 +82,10 @@ form {
     position: absolute;
     right: 5px;
     margin-top: 0;
+    background-image: url('https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*******************Carousel Buttons***************************/
