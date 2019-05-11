@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /**********Header and Nav Bar***************/
 
 header {
-    background-color: lightgrey;
+    background-color: rgb(245, 243, 243);
     height: 75px;
     width: 100%;
     position: fixed;
@@ -29,10 +33,6 @@ ul {
 nav li {
     display: inline-block;
     padding: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
 }
 
 .logo {
@@ -84,17 +84,19 @@ form {
     margin-top: 0;
 }
 
+/*******************Carousel Buttons***************************/
+
 .carousel {
     margin-top: 50px;
     width: 650px;
 }
 
-.carousel ul {
+.carousel_buttons {
     padding-left: 0;
     padding-right: 100px;
 }
 
-.carousel li {
+.carousel_buttons li {
     display: inline-block;
     border: 1px solid lightgray;
     font-size: 20px;
@@ -113,4 +115,29 @@ form {
 
 .next_page {
     border-radius: 0 5px 5px 0;
+}
+
+/***************************Search Results***************************/
+
+.search_results {
+    margin-top: 75px;
+    width: 800px;
+}
+
+.result_list {
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.result_list li {
+    display: inline-block;
+    color: #adabab;
+    font-weight: 600;
+}
+
+.job_title a {
+    color: blue;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
 }
