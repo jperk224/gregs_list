@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /**********Header and Nav Bar***************/
 
 header {
@@ -15,7 +19,7 @@ nav {
     padding-right: 20px;
 }
 
-nav ul {
+ul {
     list-style: none;
     font-size: 1.75em;
     margin-top: 20px;
@@ -41,6 +45,12 @@ nav a {
 main {
     padding-top: 115px;
     margin-left: 10%;
+    font-size: 0;
+}
+
+form {
+    width: 650px;
+    position: relative;
 }
 
 .form_label {
@@ -49,6 +59,7 @@ main {
     font-size: 1.10em;
     margin-bottom: 5px;
     padding-left: 5px;
+    font-size: 18px;
 }
 
 #search {
@@ -57,4 +68,49 @@ main {
     font-size: 1.25em;
     font-weight: 600;
     padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    position: absolute;
+    right: 5px;
+    margin-top: 0;
+}
+
+.carousel {
+    margin-top: 50px;
+    width: 650px;
+}
+
+.carousel ul {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.carousel li {
+    display: inline-block;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+#list_count {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.previous_page {
+    border-radius: 5px 0 0 5px;
+}
+
+.next_page {
+    border-radius: 0 5px 5px 0;
 }
